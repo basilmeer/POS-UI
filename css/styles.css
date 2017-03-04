@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+body {
+  font-family: 'Droid Sans', serif;
+}
+
+.navbar-brand {
+  color: #9ca3a8;
+  font-size: 16px;
+}
+
+a:link {
+  color: #9ca3a8;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  background-color: #3a4953;
+  border: 0px;
+}
+
+.h-icons {
+  display: inline;
+}
+
+.nav > li > a:visited  {
+  background-color: #222f38;
+  color: #9ca3a8;
+}
+
+.nav > li > a:hover {
+  background-color: #222f38;
+  color: #ffffff;
+}
