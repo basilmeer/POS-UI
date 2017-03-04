@@ -69,3 +69,23 @@ a:focus {
 .navbar-form > #search-bar {
   width: 350px;
 }
+
+#home {
+  color: #433e90;
+}
+
+#sell {
+  color: #7bc043;
+}
+
+#history {
+  color: #f37736
+}
+
+#report {
+  color: #0392cf;
+}
+
+#products {
+  color: #ee4035;
+}
