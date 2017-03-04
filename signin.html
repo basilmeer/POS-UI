@@ -7,6 +7,7 @@
   <title>Sign In | CashIT</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" >
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/signin.css" rel="stylesheet">
   <!-- jQuery CDN - Do NOT remove -->
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous"></script>
@@ -14,24 +15,56 @@
 
 </head>
 <body>
-  <img src="images/login.jpeg" class="img-responsive">
-  <div class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Modal title</h4>
+  <!-- <img id="loginbg" src="images/login.jpeg" class="img-responsive">
+  <div class="container" id="signin-panel">
+    <form class="form-signin">
+      <h2 class="form-signin-heading">Sign in</h2>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" requierd autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required autofocus>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </div> -->
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                  <strong>Login</strong>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label">
+                            Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-3 control-label">
+                            Password</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required="">
+                        </div>
+                    </div>
+                    <div class="form-group last">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <button type="submit" class="btn btn-success btn-sm">
+                                Sign in</button>
+                                 <button type="reset" class="btn btn-default btn-sm">
+                                Reset</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="panel-footer">
+                    Not Registered? <a href="#">Register here</a></div>
+            </div>
         </div>
-        <div class="modal-body">
-          <p>One fine body&hellip;</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+    </div>
+</div>
 
 </body>
 </html>
