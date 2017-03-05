@@ -74,6 +74,8 @@ a:focus {
 
 .navbar-form > #search-bar {
   width: 430px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 #home {
@@ -96,11 +98,12 @@ a:focus {
   color: #ee4035;
 }
 
-.navbar-brand > img {
-  height: 30px;
-  width: 30px;
+.sell > #menu-items {
+
 }
 
-.sell > #menu-items {
-  ;
+.fill{
+  height: 94.5vh;
+  text-align: center;
+  background-color: #ededed;
 }
