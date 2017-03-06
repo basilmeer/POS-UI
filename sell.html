@@ -110,14 +110,26 @@
              <div class="panel-body">
                <i class="fa fa-user"></i>  Add a new customer
                <hr>
+                 <div class="row">
+                   <div class="col-md-3">
+                     <span class="text-muted">Qty.</span>
+                   </div>
+                   <div class="col-md-6">
+                     <span class="text-muted">Product</span>
+                   </div>
+                   <div class="col-md-3">
+                     <span class="text-muted">Price</span>
+                   </div>
+                 </div>
+               <hr>
                 <div class="row">
-                  <div class="col-md-4">
-                    1
+                  <div class="col-md-3">
+                    <strong>1</strong>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-6">
                     Cappucinno
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     Rs. 850
                   </div>
                 </div>
@@ -135,8 +147,14 @@
                 <p class="text-muted">Tax .......................................................... Rs. 0</p>
                 <p class="text-muted">Discount ................................................. Rs. 0</p>
                 <h3>Total ....................... Rs. 850</h3>
-                <button class="btn btn-warning" id="waitBtn"><i class="fa fa-clock-o"></i><br>Wait</button>
-                <button class="btn btn-danger" id="delBtn"><i class="fa fa-trash-o"></i><br>Delete</button>
+                <div class="row">
+                  <div class="col-md-6" id="btnCol">
+                    <button class="btn btn-warning btn-block" id="waitBtn"><i class="fa fa-clock-o"></i><br>Wait</button>
+                  </div>
+                  <div class="col-md-6" id="btnCol">
+                    <button class="btn btn-danger btn-block" id="delBtn"><i class="fa fa-trash-o"></i><br>Delete</button>
+                  </div>
+                </div>
                 <button class="btn btn-success btn-block" id="payBtn"><i class="fa fa-dollar"></i><br>Pay</button>
              </div> <!-- panel body end -->
            </div>

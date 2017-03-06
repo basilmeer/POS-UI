@@ -101,10 +101,10 @@ a:hover, a:focus {
   background-color: #ededed;
 }
 
-#menu-items #waitBtn {
-  width: 185px;
+#menu-items #waitBtn, #menu-items #delBtn {
+  display: inline-block;
 }
 
-#menu-items #delBtn {
-  width: 185px;
+#menu-items #btnCol {
+  padding-right: 0;
 }
