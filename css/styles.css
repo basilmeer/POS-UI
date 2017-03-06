@@ -18,11 +18,7 @@ a:link {
   color: #9ca3a8;
 }
 
-a:hover {
-  color: #fff;
-}
-
-a:focus {
+a:hover, a:focus {
   color: #fff;
 }
 
@@ -98,15 +94,9 @@ a:focus {
   color: #ee4035;
 }
 
-.sell > #menu-items {
-
-}
 
 .fill{
   height: 94.5vh;
   text-align: center;
   background-color: #ededed;
-}
-
-.panel > .btn {
 }
