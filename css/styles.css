@@ -107,3 +107,6 @@ a:focus {
   text-align: center;
   background-color: #ededed;
 }
+
+.panel > .btn {
+}
