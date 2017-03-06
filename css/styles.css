@@ -100,3 +100,11 @@ a:hover, a:focus {
   text-align: center;
   background-color: #ededed;
 }
+
+#menu-items #waitBtn {
+  width: 185px;
+}
+
+#menu-items #delBtn {
+  width: 185px;
+}
