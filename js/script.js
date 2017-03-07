@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#bar-item').click(function() {
-    // Changes active tab on clicking an icon
-  })
-})
+  $( "#menu-items" ).click(function() {
+    $( this ).effect( "bounce", 1000 );
+  });
+});

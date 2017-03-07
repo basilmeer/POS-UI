@@ -8,8 +8,14 @@
   <link href="css/bootstrap.min.css" rel="stylesheet" >
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/font-awesome.min.css" rel="stylesheet">
-  <!-- jQuery CDN - Do NOT remove -->
-  <script src="js/jquery-3.1.1.min.js"></script>
+  <!-- Do NOT remove -->
+  <!-- <script src="js/jquery-3.1.1.min.js"></script> -->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+  </script>
   <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -48,14 +54,6 @@
        </div>
      </div>
    <!-- Icon bar end -->
-
-     <!-- <div class="side-bar">
-       <div class="col-md-2">
-         <div class="fill">
-           <p>Main Register</p>
-         </div>
-       </div>
-     </div> -->
 
      <div class="sell"> <!-- Sell -->
        <div class="col-md-9">
@@ -108,7 +106,7 @@
          <div class="col-md-4">
            <div class="panel">
              <div class="panel-body">
-                <i class="fa fa-user"></i><input type="text" class="form-control" placeholder="Add a new customer" id="addCust"></input>
+                <i class="fa fa-user"></i> &nbsp; &nbsp; Add a new customer
                <hr>
                  <div class="row">
                    <div class="col-md-3">
@@ -127,12 +125,19 @@
                     <strong>1</strong>
                   </div>
                   <div class="col-md-6">
-                    Cappucinno
+                    Pizza Burger
                   </div>
                   <div class="col-md-3">
                     Rs. 850
                   </div>
                 </div>
+
+                <!--
+                     This feels like such a bad developer
+                     practice but desperate times call for
+                     desperate measures
+                -->
+
                 <br>
                 <br>
                 <br>
@@ -142,23 +147,20 @@
                 <br>
                 <br>
                 <br>
+
                 <hr>
-                <!-- <p class="text-muted">Sub-total</p><p class="text-muted text-right">Rs. 850</p>
-                <p class="text-muted">Tax .......................................................... Rs. 0</p>
-                <p class="text-muted">Discount ................................................. Rs. 0</p>
-                <h3>Total ....................... Rs. 850</h3> -->
                 <div class="row">
                   <div class="col-md-3">
                     <p class="text-muted">Sub-total</p><br>
                     <p class="text-muted">Tax</p><br>
                     <p class="text-muted">Discount</p><br>
-                    <h3>Total</h3>
+                    <h4>Total</h4>
                   </div>
                   <div class="col-md-3 col-md-offset-6">
                     <p class="text-muted">Rs. 850</p><br>
                     <p class="text-muted">Rs. 0</p><br>
                     <p class="text-muted">Rs. 0</p><br>
-                    <h3>Rs. 850</h3>
+                    <h4>Rs. 850</h4>
                   </div>
                 </div>
                 <div class="row">

@@ -5,7 +5,7 @@ body {
   background-color: #f5f5f5;
 }
 
-p {
+p{
   display: inline;
 }
 
@@ -109,9 +109,6 @@ a:hover, a:focus {
   background-color: #ededed;
 }
 
-#menu-items #waitBtn, #menu-items #delBtn {
-  display: inline-block;
-}
 
 #menu-items #btnCol {
   padding-right: 0;
