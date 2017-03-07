@@ -53,7 +53,6 @@ a:hover, a:focus {
 .icon-bar a {
   padding: 16px;
   display: block;
-  color: #51616c;
   transition: all 0.3s ease;
   font-size: 24px;
 }
@@ -78,10 +77,6 @@ a:hover, a:focus {
   margin-bottom: 10px;
 }
 
-#addCust {
-  width: 210px;
-}
-
 #home {
   color: #433e90;
 }
@@ -101,7 +96,6 @@ a:hover, a:focus {
 #products {
   color: #ee4035;
 }
-
 
 .fill{
   height: 94.5vh;
