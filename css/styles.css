@@ -72,6 +72,21 @@ a:hover, a:focus {
   margin-top: 30px;
 }
 
+#saleshistory {
+  margin-top: 35px;
+}
+
+.pagination > .active > a {
+  background-color: #3a4953;
+  border-color: #28333a;
+  color: #fff;
+}
+
+.pagination > .active > a:hover {
+  background-color: #2e3a42;
+  border-color: #28333a;
+}
+
 .icon-bar a:hover {
   background-color: #f5f5f5;
 }

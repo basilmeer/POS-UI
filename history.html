@@ -13,30 +13,145 @@
 </head>
 <body>
   <nav class="navbar"> <!-- navbar.start -->
-     <div class="container-fluid"> <!-- container.fluid.end -->
-       <div class="navbar-header"> <!-- navbar.header.start -->
-         <a class="navbar-brand" href="#"><strong>Company Logo</strong></a>
-       </div> <!-- nabar.header.end -->
-       <ul class="nav navbar-nav navbar-right"> <!-- navbar.menu.start -->
-         <li><a href="#"><strong>Help</a></strong></li>
-         <li><a href="#"><strong>Notifications</strong></a></li>
-         <li><a href="#"><strong>Username</strong></a></li>
-       </ul> <!-- navbar.menu.end -->
-     </div> <!-- container.fluid.end -->
-   </nav> <!-- navbar.end -->
+    <div class="container-fluid"> <!-- container.fluid.end -->
+      <div class="navbar-header"> <!-- navbar.header.start -->
+        <a class="navbar-brand" href="#"><strong>Company Logo</strong></a>
+      </div> <!-- nabar.header.end -->
+      <ul class="nav navbar-nav navbar-right"> <!-- navbar.menu.start -->
+        <li><a href="#"><strong>Help</a></strong></li>
+        <li><a href="#"><strong>Notifications</strong></a></li>
+        <li><a href="#"><strong>Username</strong></a></li>
+      </ul> <!-- navbar.menu.end -->
+    </div> <!-- container.fluid.end -->
+  </nav> <!-- navbar.end -->
 
-   <!-- Icon bar -->
-   <div class="row"> <!-- main.view.row.start -->
-     <div class="col-md-1">
-       <div class="icon-bar"> <!-- icon.bar.start -->
-         <a href="index.html" id="home"><i class="fa fa-home"></i><span id="bar-item">Home</span></a>
-         <a href="sell.html" id="sale"><i class="fa fa-money"></i><span id="bar-item">Sale</span></a>
-         <a class="active" href="history.html" id="history"><i class="fa fa-file-text-o"></i><span id="bar-item">History</span></a>
-         <a href="#" id="report"><i class="fa fa-bar-chart"></i><span id="bar-item">Report</span></a>
-         <a href="#" id="products"><i class="fa fa-tag"></i><span id="bar-item">Products</span></a>
-       </div> <!-- icon.bar.end -->
-     </div> <!-- col-md-1.end -->
-   </div> <!-- main.view.row.end -->
+  <!-- Icon bar -->
+  <div class="row"> <!-- main.view.row.start -->
+    <div class="col-md-1">
+      <div class="icon-bar"> <!-- icon.bar.start -->
+        <a href="index.html" id="home"><i class="fa fa-home"></i><span id="bar-item">Home</span></a>
+        <a href="sell.html" id="sale"><i class="fa fa-money"></i><span id="bar-item">Sale</span></a>
+        <a class="active" href="history.html" id="history"><i class="fa fa-file-text-o"></i><span id="bar-item">History</span></a>
+        <a href="#" id="report"><i class="fa fa-bar-chart"></i><span id="bar-item">Report</span></a>
+        <a href="#" id="products"><i class="fa fa-tag"></i><span id="bar-item">Products</span></a>
+      </div> <!-- icon.bar.end -->
+    </div> <!-- col-md-1.end -->
+
+    <div class="col-md-9 col-md-offset-1"> <!-- panels.col.start -->
+      <div class="panel panel-default" id="saleshistory"> <!-- sales.history.panel.start -->
+        <div class="panel-heading main-color-bg">
+          <h3 class="panel-title">Sales History</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-12 text-right">
+              <input type="form-control" type="text" placeholder="Filter Posts">
+              <input type="submit" type="button" class="btn btn-primary main-color-bg">
+            </div>
+          </div>
+        </div> <!-- panels.body.end -->
+        <br>
+        <table class="table table-striped table-hover"> <!-- sales.history.table.start -->
+          <tr>
+            <th>Sr. No.</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Customer</th>
+            <th>Timestamp</th>
+            <th>Cashier</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Burger Pizza</td>
+            <td>2</td>
+            <td>Obi Wan Kenobi</td>
+            <td>5:15:22 March 9, 2017</td>
+            <td>Jack Black</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Cappuccino</td>
+            <td>1</td>
+            <td>Buffy the Vampire Slayer</td>
+            <td>3:55:14 March 9, 2017</td>
+            <td>Jack Black</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Espresso</td>
+            <td>4</td>
+            <td>InnoverseTech</td>
+            <td>2:45:21 March 9, 2017</td>
+            <td>Jack Black</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Mango Milkshake</td>
+            <td>2</td>
+            <td>Anakin Skywalker</td>
+            <td>1:01:11 March 8, 2017</td>
+            <td>Jack Black</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Krabby Patty</td>
+            <td>3</td>
+            <td>Darth Vader</td>
+            <td>2:45:21 March 9, 2017</td>
+            <td>Squidward</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Pepperoni Pizza</td>
+            <td>4</td>
+            <td>Leonardo</td>
+            <td>2:45:21 March 9, 2017</td>
+            <td>Jack Black</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Club Sandwich</td>
+            <td>3</td>
+            <td>Flintstones</td>
+            <td>2:45:21 March 9, 2017</td>
+            <td>Jack Black</td>
+            <td><a class="btn btn-default" href="#">View Details</a></td>
+          </tr>
+        </table> <!-- inventory.table.end -->
+        <div class="text-center"> <!-- panel.pagination.start -->
+          <ul class="pagination">
+            <li class="disabled">
+              <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+            <li><a href="#">10</a></li>
+            <li>
+              <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </div> <!-- panels-pagination.end -->
+      </div> <!-- inventory.panel.end -->
+    </div> <!-- panels.col.end -->
+  </div> <!-- main.view.row.end -->
 
 
 </body>
