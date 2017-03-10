@@ -45,7 +45,7 @@ a:hover, a:focus {
 
 .icon-bar {
   height: 100vh;
-  width: 70px;
+  width: 65px;
   text-align: center;
   background-color: #ededed;
 }
@@ -54,11 +54,11 @@ a:hover, a:focus {
   padding: 16px;
   display: block;
   transition: all 0.3s ease;
-  font-size: 24px;
+  font-size: 18px; /* font-size for the icons */
 }
 
 #bar-item {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: bold;
   text-decoration: none;
 }
