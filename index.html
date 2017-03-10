@@ -15,157 +15,156 @@
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
 </head>
 <body>
- <nav class="navbar"> <!-- navbar.start -->
-   <div class="container-fluid"> <!-- container.fluid.end -->
-     <div class="navbar-header"> <!-- navbar.header.start -->
-       <a class="navbar-brand" href="#"><strong>Company Logo</strong></a>
-     </div> <!-- nabar.header.end -->
-     <ul class="nav navbar-nav navbar-right"> <!-- navbar.menu.start -->
-       <li><a href="#"><strong>Help</a></strong></li>
-       <li><a href="#"><strong>Notifications</strong></a></li>
-       <li><a href="#"><strong>Username</strong></a></li>
-     </ul> <!-- navbar.menu.end -->
-   </div> <!-- container.fluid.end -->
- </nav> <!-- navbar.end -->
+  <nav class="navbar"> <!-- navbar.start -->
+    <div class="container-fluid"> <!-- container.fluid.end -->
+      <div class="navbar-header"> <!-- navbar.header.start -->
+        <a class="navbar-brand" href="#"><strong>Company Logo</strong></a>
+      </div> <!-- nabar.header.end -->
+      <ul class="nav navbar-nav navbar-right"> <!-- navbar.menu.start -->
+        <li><a href="#"><strong>Help</a></strong></li>
+        <li><a href="#"><strong>Notifications</strong></a></li>
+        <li><a href="#"><strong>Username</strong></a></li>
+      </ul> <!-- navbar.menu.end -->
+    </div> <!-- container.fluid.end -->
+  </nav> <!-- navbar.end -->
 
- <!-- Icon bar -->
- <div class="row" id="mainview"> <!-- mainview.row.start -->
-   <div class="col-md-1">
-     <div class="icon-bar"> <!-- icon.bar.start -->
-       <a class="active" href="index.html" id="home"><i class="fa fa-home"></i><span id="bar-item">Home</span></a>
-       <a href="sell.html" id="sale"><i class="fa fa-money"></i><span id="bar-item">Sale</span></a>
-       <a href="#" id="history"><i class="fa fa-file-text-o"></i><span id="bar-item">History</span></a>
-       <a href="#" id="report"><i class="fa fa-bar-chart"></i><span id="bar-item">Report</span></a>
-       <a href="#" id="products"><i class="fa fa-tag"></i><span id="bar-item">Products</span></a>
-     </div> <!-- icon.bar.end -->
-   </div> <!-- col-md-1.end -->
+  <!-- Icon bar -->
+  <div class="row" id="mainview"> <!-- mainview.row.start -->
+    <div class="col-md-1">
+      <div class="icon-bar"> <!-- icon.bar.start -->
+        <a class="active" href="index.html" id="home"><i class="fa fa-home"></i><span id="bar-item">Home</span></a>
+        <a href="sell.html" id="sale"><i class="fa fa-money"></i><span id="bar-item">Sale</span></a>
+        <a href="#" id="history"><i class="fa fa-file-text-o"></i><span id="bar-item">History</span></a>
+        <a href="#" id="report"><i class="fa fa-bar-chart"></i><span id="bar-item">Report</span></a>
+        <a href="#" id="products"><i class="fa fa-tag"></i><span id="bar-item">Products</span></a>
+      </div> <!-- icon.bar.end -->
+    </div> <!-- col-md-1.end -->
 
-   <!-- Reports -->
-   <!-- The reports will be enclosed within panels for a card-like layout -->
-   <div class="col-md-9 col-md-offset-1" id="reports"> <!-- reports.start -->
-     <div class="row" id="reportsrow"> <!-- row for formatting multiple charts inline -->
+    <!-- Reports -->
+    <!-- The reports will be enclosed within panels for a card-like layout -->
+    <div class="col-md-9 col-md-offset-1" id="reports"> <!-- reports.start -->
+      <div class="row" id="reportsrow"> <!-- row for formatting multiple charts inline -->
 
-       <!-- Report 1 -->
-       <div class="col-md-5"> <!-- report1.col.start -->
-         <div class="panel panel-default"> <!-- report1.panel.start -->
-           <div class="panel-heading main-color-bg"> <!-- report1.heading.start -->
-             Report 1
-           </div> <!-- report1.heading.end -->
-           <div class="panel-body"> <!-- report1.panel.body.start -->
-             <div id="chartContainer"></div> <!-- renders the following JS dummy data as a proper chart -->
-             <!-- Dummy chart data -->
-             <script>
-               Highcharts.chart('chartContainer', {
-                 title: {
-                     text: 'Lorem Ipsum'
-                 },
-                 subtitle: {
-                     text: 'Example of reports'
-                 },
-                 yAxis: {
-                     title: {
-                         text: 'yAxis Value Title'
-                     }
-                 },
-                 plotOptions: {
-                     series: {
-                         pointStart: 100
-                     }
-                 },
-                 series: [{
-                     name: 'Value 1',
-                     data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
-                 }, {
-                     name: 'Value 2',
-                     data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
-                 }, {
-                     name: 'Value 3',
-                     data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-                 }, {
-                     name: 'Value 4',
-                     data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
-                 }, {
-                     name: 'Value 5',
-                     data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
-                 }]
-             });
-             </script>
-           </div> <!-- report1.panel.body.end -->
-         </div> <!-- report1.panel.end -->
-       </div> <!-- report1.col.end -->
+        <!-- Report 1 -->
+        <div class="col-md-5"> <!-- report1.col.start -->
+          <div class="panel panel-default"> <!-- report1.panel.start -->
+            <div class="panel-heading main-color-bg"> <!-- report1.heading.start -->
+              Report 1
+            </div> <!-- report1.heading.end -->
+            <div class="panel-body"> <!-- report1.panel.body.start -->
+              <div id="chartContainer"></div> <!-- renders the following JS dummy data as a proper chart -->
+              <!-- Dummy chart data -->
+              <script>
+              Highcharts.chart('chartContainer', {
+                title: {
+                  text: 'Lorem Ipsum'
+                },
+                subtitle: {
+                  text: 'Example of reports'
+                },
+                yAxis: {
+                  title: {
+                    text: 'yAxis Value Title'
+                  }
+                },
+                plotOptions: {
+                  series: {
+                    pointStart: 100
+                  }
+                },
+                series: [{
+                  name: 'Value 1',
+                  data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
+                }, {
+                  name: 'Value 2',
+                  data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+                }, {
+                  name: 'Value 3',
+                  data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
+                }, {
+                  name: 'Value 4',
+                  data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
+                }, {
+                  name: 'Value 5',
+                  data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
+                }]
+              });
+              </script>
+            </div> <!-- report1.panel.body.end -->
+          </div> <!-- report1.panel.end -->
+        </div> <!-- report1.col.end -->
 
-       <!-- Report 2 -->
-       <div class="col-md-5 col-md-offset-1"> <!-- report2.col.start -->
-         <div class="panel panel-default"> <!-- report2.panel.start -->
-           <div class="panel-heading main-color-bg"> <!-- report2.heading.start -->
-             Report 2
-           </div> <!-- report2.heading.end -->
-           <div class="panel-body"> <!-- report2.panel.body.start -->
-             <div id="chartContainer2"></div> <!-- renders the following JS dummy data as a proper chart -->
-             <!-- Dummy chart data -->
-             <script>
-             Highcharts.chart('chartContainer2', {
-              chart: {
+        <!-- Report 2 -->
+        <div class="col-md-5 col-md-offset-1"> <!-- report2.col.start -->
+          <div class="panel panel-default"> <!-- report2.panel.start -->
+            <div class="panel-heading main-color-bg"> <!-- report2.heading.start -->
+              Report 2
+            </div> <!-- report2.heading.end -->
+            <div class="panel-body"> <!-- report2.panel.body.start -->
+              <div id="chartContainer2"></div> <!-- renders the following JS dummy data as a proper chart -->
+              <!-- Dummy chart data -->
+              <script>
+              Highcharts.chart('chartContainer2', {
+                chart: {
                   plotBackgroundColor: null,
                   plotBorderWidth: null,
-                  plotShadow: false,
+                  plotShadow: true,
                   type: 'pie'
-              },
-              title: {
+                },
+                title: {
                   text: 'Lorem Ipsum'
-              },
-              subtitle: {
-                text: 'Example of reports'
-              },
-              tooltip: {
+                },
+                subtitle: {
+                  text: 'Example of reports'
+                },
+                tooltip: {
                   pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-              },
-              plotOptions: {
+                },
+                plotOptions: {
                   pie: {
-                      allowPointSelect: true,
-                      cursor: 'pointer',
-                      dataLabels: {
-                          enabled: true,
-                          format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                          style: {
-                              color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                          }
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                      enabled: true,
+                      format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                      style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
                       }
+                    }
                   }
-              },
-              series: [{
+                },
+                series: [{
                   name: 'Brands',
                   colorByPoint: true,
                   data: [{
-                      name: 'Lorem Ipsum',
-                      y: 56.33
+                    name: 'A',
+                    y: 56.33
                   }, {
-                      name: 'Dolor Sit',
-                      y: 24.03,
-                      sliced: true,
-                      selected: true
+                    name: 'B',
+                    y: 24.03,
+                    sliced: true,
+                    selected: true
                   }, {
-                      name: 'Amit',
-                      y: 10.38
+                    name: 'C',
+                    y: 10.38
                   }, {
-                      name: 'Consectetur',
-                      y: 4.77
+                    name: 'D',
+                    y: 4.77
                   }, {
-                      name: 'Adipiscing',
-                      y: 0.91
+                    name: 'E',
+                    y: 0.91
                   }, {
-                      name: 'Dummy text',
-                      y: 0.2
+                    name: 'F',
+                    y: 0.2
                   }]
                 }]
               });
-             </script>
-           </div> <!-- report2.panel.body.end -->
-         </div> <!-- report2.panel.end -->
-       </div> <!-- report2.col.end -->
-     </div> <!-- reportsrow.end -->
-   </div> <!-- reports.end -->
- </div> <!-- mainview.row.end -->
-
+              </script>
+            </div> <!-- report2.panel.body.end -->
+          </div> <!-- report2.panel.end -->
+        </div> <!-- report2.col.end -->
+      </div> <!-- reportsrow.end -->
+    </div> <!-- reports.end -->
+  </div> <!-- mainview.row.end -->
 </body>
 </html>
