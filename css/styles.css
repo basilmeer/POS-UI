@@ -18,6 +18,28 @@ p {
   margin-right: auto;
 }
 
+#box1 {
+  height: 300px;
+  width: 300px;
+  margin-top: 180px;
+  /*border: 1px solid #d3d3d3;*/
+}
+
+#box2 {
+  height: 300px;
+  width: 300px;
+  margin-top: 180px;
+  /*border: 1px solid #d3d3d3;*/
+}
+
+#addprod {
+  margin-top: 30px;
+}
+
+#viewprod {
+  margin-top: 30px;
+}
+
 .navbar-brand {
   color: #9ca3a8;
   font-size: 16px;

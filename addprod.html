@@ -38,14 +38,41 @@
     </div> <!-- col-md-1.end -->
 
     <div class="col-md-10"> <!-- panels.col.start -->
-      <div class="row" id="mainrow"> <!-- mainrow.start -->
-        <div class="col-md-3 col-md-offset-2" id="box1"> <!-- box1.start -->
-          <a href="addprod.html"><img src="images/addprod.png"></a>
-        </div> <!-- box1.end -->
-        <div class="col-md-3 col-md-offset-2" id="box2"> <!-- box2.start -->
-          <a href="viewprod.html"><img src="images/viewprod.png"></a>
-        </div> <!-- box2.end -->
-      </div> <!-- mainrow.end -->
+           <div class="col-md-9 col-md-offset-1">
+       <div class="panel panel-default" id="addprod">
+         <div class="panel-heading main-color-bg">
+           Add Product
+         </div>
+         <div class="panel-body">
+          Upload image: &nbsp; <button>Click here</button>
+         </div>
+           <table class="table table-striped"> <!-- add.product.table.start -->
+             <tr>
+               <th>Sr. No.</th>
+               <th>Product</th>
+               <th>Product No.</th>
+               <th>Price</th>
+               <th>Quantity</th>
+               <th><!-- for delete button --></th>
+             </tr>
+             <tr>
+               <td>1</td>
+               <td><input type="text" class="form-control"></td>
+               <td><input type="text" class="form-control"></td>
+               <td><input type="text" class="form-control"></td>
+               <td><a class="btn btn-danger" href="#">Delete</a></td>
+             </tr>
+           </table> <!-- add.product.table-end -->
+           <div class="form-group">
+             <label for="invDesc">Description</label>
+             <textarea class="form-control" id="invDesc" rows=5></textarea>
+           </div>
+           <div class="form-group">
+             <label for="addNote">Additional Note</label>
+             <textarea class="form-control" id="addNote" rows=5></textarea>
+           </div>
+           <button type="submit" class="btn btn-success pull-right">Submit</button>
+       </div>
     </div> <!-- panels.col.end -->
   </div> <!-- main.view.row.end -->
 </body>
